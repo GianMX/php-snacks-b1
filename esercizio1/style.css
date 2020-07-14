@@ -1,0 +1,14 @@
+* {
+  margin: auto 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Oswald', sans-serif;
+  text-align: center;
+}
+h2 {
+  color: red;
+  padding-bottom: 15px;
+}
+li {
+  padding: 10px;
+}
