@@ -1,28 +1,28 @@
 <?php
   $matches = [
     [
-    'team a' => 'Red Team',
-    'team b' => 'Blue Team',
-    'team a points' => rand(1, 200),
-    'team b points' => rand(1, 200)
+    'team_a' => 'Red Team',
+    'team_b' => 'Blue Team',
+    'team_a_points' => rand(1, 200),
+    'team_b_points' => rand(1, 200)
     ],
     [
-    'team a' => 'Doom',
-    'team b' => 'Wolfenstein',
-    'team a points' => rand(1, 200),
-    'team b points' => rand(1, 200)
+    'team_a' => 'Doom',
+    'team_b' => 'Wolfenstein',
+    'team_a_points' => rand(1, 200),
+    'team_b_points' => rand(1, 200)
     ],
     [
-    'team a' => 'Jotaro Kujo',
-    'team b' => 'Dio Brando',
-    'team a points' => rand(1, 200),
-    'team b points' => rand(1, 200)
+    'team_a' => 'Jotaro Kujo',
+    'team_b' => 'Dio Brando',
+    'team_a_points' => rand(1, 200),
+    'team_b_points' => rand(1, 200)
     ],
     [
-    'team a' => 'Walter White',
-    'team b' => 'Dexter Morgan',
-    'team a points' => rand(1, 200),
-    'team b points' => rand(1, 200)
+    'team_a' => 'Walter White',
+    'team_b' => 'Dexter Morgan',
+    'team_a_points' => rand(1, 200),
+    'team_b_points' => rand(1, 200)
     ]
   ]
 ?>
@@ -42,7 +42,7 @@
         <?php for($i = 0; $i < count($matches); $i++) {
         $single_match = $matches[$i];?>
           <li>
-            <?php echo $single_match['team a']; ?> - <?php echo $single_match['team b']; ?> | <?php echo $single_match['team a points'];?> - <?php echo $single_match['team b points'];?>
+            <?php echo $single_match['team_a']; ?> - <?php echo $single_match['team_b']; ?> | <?php echo $single_match['team_a_points'];?> - <?php echo $single_match['team_b_points'];?>
           </li>
         <?php } ?>
       </ul>
